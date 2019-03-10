@@ -13,10 +13,10 @@
 
 ActiveRecord::Schema.define(version: 20190303203411) do
 
-   create_table "users", force: :cascade do |x|
+  create_table "users", force: :cascade do |x|
     x.string "name"
     x.string "email"
-    t.string "password"
+    x.string "password"
   end
 
- end
+end
